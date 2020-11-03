@@ -1,5 +1,5 @@
 module.exports = {
-  channels: ['raufael'],
+  channels: ['coreanofps'],
   options: { debug: true },
   connection: {
     secure: true,

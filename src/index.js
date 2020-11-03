@@ -1,9 +1,7 @@
-const tmi = require('tmi.js');
+import tmi from 'tmi.js';
 
-const commands = require('./commands');
-const options = require('./options');
-
-const { mensagens } = commands;
+import { mensagens } from './commands';
+import options from './options';
 
 const client = tmi.Client(options);
 
