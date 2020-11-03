@@ -1,5 +1,5 @@
-module.exports = {
-  channels: ['coreanofps'],
+export default {
+  channels: ['raufael'],
   options: { debug: true },
   connection: {
     secure: true,
@@ -7,6 +7,6 @@ module.exports = {
   },
   identity: {
     username: 'raufabot',
-    password: 'oauth:2iyukgx17zizonkafcf8bj0o2ntpnr',
+    password: 'oauth:6oszkyunbwiud5bwtqq5lor16mmr4l',
   },
 };

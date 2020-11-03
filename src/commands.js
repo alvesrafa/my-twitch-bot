@@ -1,4 +1,4 @@
-function mensagens(channel, tags, message, self, client) {
+export function mensagens(channel, tags, message, self, client) {
   if (self) return;
 
   if (message.toLowerCase() === '!loja') {
@@ -42,7 +42,8 @@ function mensagens(channel, tags, message, self, client) {
     );
   }
 }
-
-module.exports = {
-  mensagens,
-};
+export function timer(channel, client, minutes, message) {
+  return setInterval(() => {
+    client.say(channel, message);
+  }, minutes * 60000);
+}
