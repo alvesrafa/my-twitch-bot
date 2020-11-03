@@ -42,8 +42,8 @@ export function mensagens(channel, tags, message, self, client) {
     );
   }
 }
-export function timer(channel, client, minutes, message) {
+export function timer(client, minutes, message) {
   return setInterval(() => {
-    client.say(channel, message);
+    client.say(process.env.MY_CHANNEL, message);
   }, minutes * 60000);
 }

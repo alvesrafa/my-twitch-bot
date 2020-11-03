@@ -1,3 +1,4 @@
+import { auth } from './auth';
 export default {
   channels: ['raufael'],
   options: { debug: true },
@@ -7,6 +8,6 @@ export default {
   },
   identity: {
     username: 'raufabot',
-    password: 'oauth:6oszkyunbwiud5bwtqq5lor16mmr4l',
+    password: auth,
   },
 };
