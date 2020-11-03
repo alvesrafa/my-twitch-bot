@@ -7,6 +7,6 @@ module.exports = {
   },
   identity: {
     username: 'raufabot',
-    password: '',
+    password: 'oauth:2iyukgx17zizonkafcf8bj0o2ntpnr',
   },
 };
